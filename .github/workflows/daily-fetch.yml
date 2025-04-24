@@ -2,8 +2,8 @@ name: Daily AELF Data Fetch
 
 on:
   schedule:
-    # Exécuter tous les jours à 00:15 UTC
-    - cron: '1 1 * * *'
+    # Exécuter tous les jours à 01:15 UTC
+    - cron: '15 1 * * *'
   # Permettre l'exécution manuelle depuis l'interface GitHub
   workflow_dispatch:
 
